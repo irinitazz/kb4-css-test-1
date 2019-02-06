@@ -14,7 +14,7 @@ import NanoVideo from "../Pages/NanoVideo";
 import Quiz from "../Pages/Quiz";
 import SecurityTip from "../Pages/SecurityTip";
 import Congrats from "../Pages/Congrats";
-import TextOverlay from "../Pages/TextOverlay";
+import CSSTest from "../Pages/CSSTest";
 
 const Content = require("../config/content.json");
 
@@ -32,7 +32,7 @@ export default {
     }
   },
   components: {
-    TextOverlay,
+    CSSTest,
     Congrats,
     Intro,
     Quiz,
