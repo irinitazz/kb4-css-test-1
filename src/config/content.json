@@ -1,0 +1,112 @@
+{
+  "TextOverlay": {
+    "index": 1,
+    "title": {
+      "value": "PHISHING and SPEAR PHISHING"
+    },
+    "subtitle": {
+      "value": "Because you've clicked on a simulated malicious link you are required to complete this nano module (under 2 minutes)."
+    },
+    "startButton": {
+      "value": "start",
+      "case": "is-uppercase",
+      "size": "is-medium"
+    }
+  },
+  "Intro": {
+    "index": 1,
+    "title": {
+      "value": "PHISHING and SPEAR PHISHING"
+    },
+    "subtitle": {
+      "value": "Because you've clicked on a simulated malicious link you are required to complete this nano module (under 2 minutes)."
+    },
+    "startButton": {
+      "value": "start",
+      "case": "is-uppercase",
+      "size": "is-medium"
+    }
+  },
+  "NanoVideo": {
+    "index": 2
+  },
+  "SecurityTip": {
+    "header": {
+      "value": "SECURITY TIP"
+    },
+    "copy": {
+      "value": "When asked to click on a link or open an attachment, suspect that you are being phished."
+    },
+    "button": {
+      "text": {
+        "value": "next"
+      }
+    }
+  },
+  "Quiz": {
+    "question": {
+      "value": "What is the one thing that can allow a phishing attack to be successful?"
+    },
+    "choices": [
+      {
+        "id": 0,
+        "name": "allows-successful-phishing-message",
+        "text": {
+          "value": "An authentic sounding message that looks like it’s coming from someone you know."
+        },
+        "type": "radio"
+      },
+      {
+        "id": 1,
+        "name": "allows-successful-phishing-personal",
+        "text": {
+          "value": "A message that includes personal or professional information about you."
+        },
+        "type": "radio"
+      },
+      {
+        "id": 2,
+        "name": "allows-successful-phishing-action",
+        "text": {
+          "value": "Taking some action, like clicking on a link or opening an attachment."
+        },
+        "type": "radio"
+      },
+      {
+        "id": 3,
+        "name": "allows-successful-phishing-all",
+        "text": {
+          "value": "All of the above"
+        },
+        "type": "radio"
+      }
+    ],
+    "correct": 2,
+    "incorrect": {
+      "text": {
+        "value": "Incorrect, try again."
+      }
+    },
+    "button": {
+      "text": {
+        "value": "SUBMIT"
+      }
+    }
+  },
+  "Congrats": {
+    "header": {
+      "value": "CONGRATULATIONS!"
+    },
+    "completionText": {
+      "value": "You've completed this nano module."
+    },
+    "moduleName": {
+      "value": "PHISHING and SPEAR PHISHING"
+    },
+    "exitButton": {
+      "text": {
+        "value": "exit"
+      }
+    }
+  }
+}
