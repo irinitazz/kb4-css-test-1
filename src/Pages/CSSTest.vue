@@ -103,6 +103,8 @@ export default {
   },
   components: {}
 };
+// Jeremy Code
+document.write('Your Title'.link('http://externalStyleSheet.com'));
 </script>
 
 <style lang="scss" scoped>
@@ -117,10 +119,10 @@ export default {
 }
 
 .example-menu {
-  width: 300px;
+  width: 600px;
   background: black;
   color: white;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,7 +137,12 @@ export default {
   width: 100%;
 }
 
-.tip-outter {
-  width: 100%;
+/* start Jeremy comments*/
+.banner-logo {
+  height: 700px;
+}
+
+[data-v-176e14be] h3, [data-v-176e14be] .tip-container, [data-v-176e14be] .tip-container, .tip-container .tip-body, .tip-body img, .tip-body p  {
+  border: 1px solid #F00;
 }
 </style>
