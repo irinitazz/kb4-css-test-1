@@ -47,7 +47,9 @@ export default {
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
+body {
+  overflow:scroll;
+}
 #app {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -60,7 +62,7 @@ export default {
   // min-height: 99vh;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 .nav-button {
